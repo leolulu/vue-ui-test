@@ -22,6 +22,11 @@ export default new Router({
       component: () => import('./views/Axios.vue')
     },
     {
+      path: '/localstorage',
+      name: 'localstorage',
+      component: () => import('./views/localstorage.vue')
+    },
+    {
       path: '/muse-ui',
       name: 'muse-ui',
       component: () => import('./views/Muse-UI.vue'),

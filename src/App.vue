@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/axios">Axios</router-link> |
+      <router-link to="/localstorage">localstorage</router-link> |
       <router-link to="/muse-ui">Muse-UI</router-link>
     </div>
     <router-view/>
